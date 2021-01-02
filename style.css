@@ -8,10 +8,10 @@ align nav bar links on right
 formatting main article
 */
 article {
-    border-width: 5px;
     margin-top: 25px;
     margin-bottom: 25px;
     background-color: whitesmoke;
+    padding: 15px;
 }
 p {
     padding: 15px;
