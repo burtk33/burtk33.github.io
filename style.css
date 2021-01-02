@@ -1,4 +1,24 @@
-
+/*
+align nav bar links on right
+*/
 .navbar-collapse{
     justify-content: flex-end;
+}
+section {
+    border-width: 5px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: whitesmoke;
+}
+p {
+    padding: 15px;
+    margin: 15px;
+}
+h1 {
+    text-align: left;
+    border-bottom: 10px;
+    border-color:dimgrey;
+}
+body {
+    background-color: dimgrey;
 }
