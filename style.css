@@ -4,7 +4,10 @@ align nav bar links on right
 .navbar-collapse{
     justify-content: flex-end;
 }
-section {
+/*
+formatting main article
+*/
+article {
     border-width: 5px;
     margin-top: 25px;
     margin-bottom: 25px;
@@ -21,4 +24,9 @@ h1 {
 }
 body {
     background-color: dimgrey;
+}
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
 }
