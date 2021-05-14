@@ -19,7 +19,7 @@ function About() {
                 <div className="col-12">
                     <div className="float-start">
                         <div className="card text-white bg-dark text-center">
-                            <img className="card-img-top" src={ProfilePic} alt="Profile Picture"
+                            <img className="card-img-top" src={ProfilePic} alt="Profile"
                                 style={{width:"250px", height: "300px"}}/>
                                 <div className="card-body">
                                     <h5 className="card-text">Email: <a href="mailto:burtk33@gmail.com">burtk33@gmail.com</a></h5>

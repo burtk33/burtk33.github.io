@@ -41,6 +41,8 @@ Main background color
 
 #about-body{
     background-color: white;
+    margin-top: 15px;
+    margin-bottom: 30px;
 }
 
 /*
@@ -50,6 +52,7 @@ footer {
     text-align: center;
     background-color: black;
     color: white;
+    margin-top: 20px;
 }
 
 h3{
@@ -70,4 +73,9 @@ a{
 .card{
     justify-content:center;
     margin:15px;
+    margin-bottom: 40px;
+}
+
+.btn{
+    margin:5px;
 }

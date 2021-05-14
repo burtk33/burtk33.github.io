@@ -3,12 +3,12 @@ import React from "react";
 function Footer() {
     return (
         <div>
-            <footer class="fixed-bottom">
-                <div class="row">
-                    <div class="col-12">
-                        <h7>
+            <footer className="fixed-bottom">
+                <div className="row">
+                    <div className="col-12">
+                        <h5>
                             Kyle Burt - Web Developer
-                        </h7>
+                        </h5>
                     </div>
                 </div>
             </footer>
