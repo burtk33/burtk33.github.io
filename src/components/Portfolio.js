@@ -1,9 +1,11 @@
 import React from "react";
 import Project from "./Project";
 import CineFile from "../images/cineFileScreen.png";
-import WorkVibe from "../images/workVibe.PNG";
-import WorkDay from "../images/workDayPlannerScreen.PNG";
-import passwordGen from "../images/passwordGenScreen.PNG";
+import WorkVibe from "../images/workVibe.png";
+import passwordGen from "../images/passwordGenScreen.png";
+import fitnessTracker from "../images/fitnessTracker.png";
+import noteTaker from "../images/noteTaker.png";
+import Budget from "../images/Budget.PNG";
 
 function Portfolio() {
     return (
@@ -35,12 +37,31 @@ function Portfolio() {
                 </div>
                 <div className="col">
                     <Project
-                    title="Work Day Planner"
-                    repo="https://github.com/burtk33/CineFile"
-                    link="https://burtk33.github.io/CineFile/"
-                    image={WorkDay}
+                    title="Progressive Budget"
+                    repo="https://github.com/burtk33/progressive-budget"
+                    link="https://prog-budget-tracker.herokuapp.com/"
+                    image={Budget}
                     />
                 </div>
+                <div className="col">
+                    <Project
+                    title="Fitness Tracker"
+                    repo="https://github.com/burtk33/fitness-tracker"
+                    link="https://fitness-tracker-33.herokuapp.com/"
+                    image={fitnessTracker}
+                    />
+                </div>
+                <div className="col">
+                    <Project
+                    title="Note Taker"
+                    repo="https://github.com/burtk33/noteTaker"
+                    link="https://note-taker-burtk33.herokuapp.com/"
+                    image={noteTaker}
+                    />
+                </div>
+            </div>
+            <div id="bottom">
+
             </div>
         </div>
     );

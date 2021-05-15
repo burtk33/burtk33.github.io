@@ -48,8 +48,8 @@ function About() {
                             few days in the wilderness.
                 </p>
                         <p>
-                            <a href="https://github.com/burtk33"><i className="fab fa-github-square fa-3x"></i></a>
-                            <a href="https://www.linkedin.com/in/kyle-burt-068668200/"><i className="fab fa-linkedin fa-3x"></i></a>
+                            <a href="https://github.com/burtk33" id="github-icon"><i className="fab fa-github-square fa-3x"></i></a>
+                            <a href="https://www.linkedin.com/in/kyle-burt-068668200/" id="linked-icon"><i className="fab fa-linkedin fa-3x"></i></a>
                         </p>
                     </div>
                 </div>
