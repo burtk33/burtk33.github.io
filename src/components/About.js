@@ -25,7 +25,7 @@ function About() {
                                     <h5 className="card-text">Email: <a href="mailto:burtk33@gmail.com">burtk33@gmail.com</a></h5>
                                     <h5 className="card-text">Phone: 609-682-0387</h5>
                                     <a
-                                        href="https://drive.google.com/file/d/1jls6OFyo98miH7uJpjHRc6uZvjlwy_b0/view?usp=sharing"><button
+                                        href="https://drive.google.com/file/d/17cVYv5kNJkjhPXrWWZ4Z7_r40vgwuBvl/view?usp=sharing"><button
                                             className="btn btn-primary">Resume</button></a>
                                 </div>
                     </div>
