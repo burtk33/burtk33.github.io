@@ -30,12 +30,8 @@ h1 {
 /*
 Main background color
 */
-#root {
-    background-color: dimgrey;
-}
-
-#body {
-    background-color: dimgrey;
+#root{
+    background-image: url("./background.jpg");
 }
 
 #about-header{
