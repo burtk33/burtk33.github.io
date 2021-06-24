@@ -1,11 +1,11 @@
 import React from "react";
 import Project from "./Project";
-import CineFile from "../images/cineFileScreen.png";
+import CineFile from "../images/Cinefile.png";
 import WorkVibe from "../images/workVibe.png";
-import passwordGen from "../images/passwordGenScreen.png";
+import matchboard from "../images/matchboard.png";
 import fitnessTracker from "../images/fitnessTracker.png";
-import noteTaker from "../images/noteTaker.png";
-import Budget from "../images/Budget.PNG";
+import books from "../images/books.png";
+import Budget from "../images/progressive.png";
 
 function Portfolio() {
     return (
@@ -29,10 +29,10 @@ function Portfolio() {
                 </div>
                 <div className="col">
                     <Project
-                    title="Password Generator"
-                    repo="https://github.com/burtk33/passwordGenerator"
-                    link="https://burtk33.github.io/passwordGenerator/"
-                    image={passwordGen}
+                    title="Match Board"
+                    repo="https://github.com/Chinedu613/BoardMatch"
+                    link="https://boardmatch.herokuapp.com/"
+                    image={matchboard}
                     />
                 </div>
                 <div className="col">
@@ -53,10 +53,10 @@ function Portfolio() {
                 </div>
                 <div className="col">
                     <Project
-                    title="Note Taker"
-                    repo="https://github.com/burtk33/noteTaker"
-                    link="https://note-taker-burtk33.herokuapp.com/"
-                    image={noteTaker}
+                    title="React Google Books"
+                    repo="https://github.com/burtk33/react-google-books"
+                    link="http://google-books-r.herokuapp.com/"
+                    image={books}
                     />
                 </div>
             </div>

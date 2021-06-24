@@ -40,9 +40,10 @@ Main background color
 }
 
 #about-body{
-    background-color: white;
+    background-color: rgba(221, 221, 221, 0.8);
     margin-top: 15px;
     margin-bottom: 30px;
+    font-weight: bold;
 }
 
 /*
@@ -61,9 +62,10 @@ h3{
 }
 
 img{
-    width:250px; 
+    width:300px; 
     height:300px; 
     padding:15px;
+    
 }
 
 a{
@@ -84,7 +86,7 @@ a{
 }
 
 #contact-body{
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.8);
     color:white;
     margin-top:20px;
     padding:15px;
@@ -96,4 +98,18 @@ a{
 
 #linked-icon{
     margin: 5px;
+}
+
+#project{
+    border-radius: 10px;
+    border-style: outset;
+    border-width: 5px;
+    border-color:dimgray;
+}
+
+#profile{
+    border-radius: 10px;
+    border-style: outset;
+    border-width: 5px;
+    border-color:dimgray;
 }
